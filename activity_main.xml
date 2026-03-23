@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="إعدادات بوت الفرحاني نت"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="أدخل الكلمات المفتاحية (افصل بينها بفاصلة ,):"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/etKeywords"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#E0E0E0"
+        android:padding="12dp"
+        android:gravity="top|right"
+        android:hint="مثال: حوالة, تم ايداع, رصيدك"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="حفظ الكلمات المفتاحية"
+        android:textSize="18sp"
+        android:backgroundTint="#0088cc"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
